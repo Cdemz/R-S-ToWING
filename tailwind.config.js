@@ -8,11 +8,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'red-bg': "url('/images/red-bg.jpg')",
+      },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        lobster: ['var(--font-lobster)'],
+        prompt: ['var(--font-prompt)'],
+        luckiest: ['var(--font-luckiest)'],
+        gelasio: ['var(--font-gelasio)'],
       },
     },
   },
   plugins: [],
-}
+};
